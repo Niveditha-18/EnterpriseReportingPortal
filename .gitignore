@@ -1,0 +1,29 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Entity Framework
+Migrations/
+
+# Logs
+*.log
+
+# Local settings
+appsettings.Development.json
+App_Data/
+AppData/
+
+# VS Code
+.vscode/
+
+# Others
+*.tmp
+*.cache
+*.DS_Store

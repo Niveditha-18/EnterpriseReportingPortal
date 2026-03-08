@@ -1,0 +1,25 @@
+﻿@page
+@model ReportsModel
+
+<h2>Reports</h2>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Date</th>
+			<th>Department</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach (var report in Model.Reports)
+		{
+			<tr>
+				<td>@report.Title</td>
+				<td>@report.CreatedDate</td>
+				<td>@report.Department?.DepartmentName</td>
+			</tr>
+		}
+	</tbody>
+</table>
